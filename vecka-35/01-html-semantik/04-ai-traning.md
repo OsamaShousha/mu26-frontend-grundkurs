@@ -11,26 +11,30 @@ Det är inte magi att “granska AI”. Det är samma metod som i teoriguiden �
 Du ber AI: *“Gör en HTML-sida för en liten bokklubb.”*  
 Du får tillbaka något i stil med:
 
-```html
+
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bokklubb</title>
 </head>
 <body>
-  <div class="top">
-    <div class="title">Bokklubben Ordet</div>
-    <div class="sub">Vi läser klart på torsdag</div>
-  </div>
-  <div class="content">
-    <div class="heading">Nästa bok</div>
-    <div>En roman om havet</div>
-    <div><a href="#">Mer</a></div>
-  </div>
-  <div class="bottom">Kontakt: bok@example.com</div>
+  <!--Header-->
+  <header class="top">
+    <h1 class="title">Bokklubben Ordet</h1>
+    <h2 class="sub">Vi läser klart på torsdag</h2>
+  </header>
+  
+  <main class="content">
+    <h2 class="heading">Nästa bok</h2>
+    <p>En roman om havet</p>
+    <a href="#">Mer</a>
+  </main>
+  <!--FFooter-->
+  <footer class="bottom">Kontakt: bok@example.com</footer>
 </body>
 </html>
-```
 
 Det *kan* se okej ut i webbläsaren. Class-namn (`top`, `title`) *låtsas* vara struktur — men taggen är fortfarande bara `div`. Det är kartonger utan avdelningsnamn. Svagt mot kursens krav på semantik.
 
@@ -57,6 +61,10 @@ Gå igenom koden (AI:ns eller snutten) och kryssa:
 
 Skriv **minst tre** konkreta feedback-punkter i formen:  
 `FEEDBACK: [vad jag ser] → [vad som måste ändras]`
+1-I used the <header> tag because it contain the title or the main heading / sub heading.
+2-I used the <main> tag becaue it is contain the main body of the website.
+3-I used the <footer> tag because it is contain the contact informations.
+4I used the <meta charset="UTF-8"> tag so the browser can display special characters correctly, and I used the viewport meta tag to make the page responsive on different screen sizes.
 
 ### Steg 3 — Anpassa
 Skriv om sidan till semantisk HTML **du äger**. Spara som `ovning-ai-bokklubb/index.html`.
@@ -64,9 +72,12 @@ Skriv om sidan till semantisk HTML **du äger**. Spara som `ovning-ai-bokklubb/i
 ### Steg 4 — Reflektion (3 meningar)
 Skriv i anteckningar eller en `REFLEKTION.md` i mappen:
 
-1. Vad var fel eller svagt i AI-förslaget (eller snutten)?  
-2. Vad ändrade du?  
-3. Varför är det viktigt inför Exam 1 README / muntligt ägarskap?
+1. Vad var fel eller svagt i AI-förslaget (eller snutten)?
+2. fel var extra html tag, många div , inget lang attribute.
+3. Vad ändrade du?
+4. Jag anväder HTML STRUKTUREN TAGGEN som <header>, <main>, <footer>
+5. Varför är det viktigt inför Exam 1 README / muntligt ägarskap?
+6.  Man måste pratatr varför man valde varje HTML-tagg och hur din sida är byggd semantiskt.
 
 ---
 
