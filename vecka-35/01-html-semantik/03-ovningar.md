@@ -12,30 +12,41 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje tagg du
 
 **Problem först:** Någon lämnat den här filen. Den *syns* i webbläsaren men koden saknar betydelse — bara kartonger utan avdelningsnamn. Det är behoven du ska lösa.
 
-```html
+
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8" >
+  <meta name="veiwport" content="width=device-width, initial-scale=1.0">
   <title>Café</title>
 </head>
 <body>
-  <div>
-    <div>Café Bryggan</div>
-    <div>Kaffe och bullar vid ån</div>
-  </div>
-  <div>
-    <div>Dagens lunch</div>
-    <div>Soppa + bröd — 95 kr</div>
-    <div>Mer info</div>
-  </div>
-  <div>
-    <div>Öppet mån–fre 08–16</div>
-    <div>Instagram</div>
-  </div>
+  <!--Header-->
+  <header aria-lable="Header">
+    <h1>Café Bryggan</h1>
+    <h2>Kaffe och bullar vid ån</h2>
+  </header>
+
+  <!--Main-->
+  <main aria-lable="Main">
+    <section>
+       <h3>Dagens lunch</h3>
+    <p>Soppa + bröd — 95 kr</p>
+        <a href="#">Mer info</a>
+    </section>
+    <img src="/folder/fileName/image" alt="image describing">
+   
+  
+  </main>
+
+  <!--Footer-->
+  <footer aria-lable="FFooter">
+    <p>Öppet mån–fre 08–16</p>
+    <a href="#">Instagram</a>
+  </footer>
 </body>
 </html>
-```
+
 
 **Krav:**
 1. Skapa mapp `ovning-cafe` → **File → Open Folder** i VS Code → filen `index.html`.
@@ -56,6 +67,72 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje tagg du
 ---
 
 ## Uppgift 2 — Från brief till taggar (podd-landning)
+<!-- Jag valde header för toppblocket eftersom det innehåller sidans introduktion: poddens namn, kort beskrivning och navigation. -->
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" conten="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <title>Kod & Kaffe</title>
+    </head>
+    <body>
+        <!--header which include the main menu, the website name and logo-->
+        <header>
+        <nav>
+            <ul aria-lable="Huvud menu">
+            <li><a href="#">PoddCasten</a></li>
+            <li><a href="#">Om OOss</a></li>
+            <li><a href="#">Avsnittet</a></li>
+            <li><a href="#">Kontakta Oss</a></li>
+        </ul>
+          <!--h1 which use to demonstrat the main address/heading-->
+        <h1 id="kod">Kod & Kaffe</h1>
+        <p>En podd om kod, kreativitet och sena idéer.</p><!--p tag for pragraph-->
+        </nav>
+        </header>
+       
+      
+        <!--Main-->
+        <main aria-lable="main med tree sections">
+            <!--Section Venster-->
+    <section class="card">
+        <img src="/inlamnig1/uppgift1/images/jakub-dziubak-XtUd5SiX464-unsplash.png" alt="Cup av Kaffee"></a>
+        <p>Lorem </p>
+
+    </section>
+      <!--Section Mitten-->
+    <section class="card">
+        <img src="/inlamnig1/uppgift1/images/jakub-dziubak-XtUd5SiX464-unsplash.png" alt="Cup av Kaffee"></a>
+        <p>Lorem </p>
+
+    </section>
+      <!--Section Höger-->
+    <section class="card">
+        <img src="/inlamnig1/uppgift1/images/jakub-dziubak-XtUd5SiX464-unsplash.png" alt="Cup av Kaffee"></a>
+        <p>Lorem </p>
+
+    </section>
+                    <!--Articlar-->
+                     <!--Avsnitt 11-->
+    <article>
+    <h2>Avsnitt 11</h2>
+    <p>Lorem</p>
+    </article>
+                     <!--Avsnitt 12-->
+     <article>
+       <h2>Avsnitt 12</h2>
+        <p>Lorem</p>
+     </article>
+
+     
+        </main>
+        <!--Footer-->
+        <footer>
+            <p>Sidfot med "@ Kod & Kaffee"</p>
+        </footer>
+    </body>
+</html>
 
 **Mål:** Metod “intervjuinnehållet”; minst tre semantiska områden; förklara semantik.
 
