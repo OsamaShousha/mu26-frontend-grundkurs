@@ -115,10 +115,19 @@ Meddelandet: konkret (“Lade till index.html med h1”), inte `asdf`.
 
 Skriv i Docs/anteckningar — för dig:
 
-1. Vad är en commit? (sikta på målsvaret)  
-2. Skillnad Git vs GitHub i en mening  
-3. Metodens tre steg + var `push` sitter  
+1. Vad är en commit? (sikta på målsvaret)
+   En commit är en lokal sparad version av filen i min dator i git sedan i public i Githup.
+2. Skillnad Git vs GitHub i en mening
+   Git är verktyget i lokal datorn som sparar och hanterar version av koden.
+   GitHHub är en webbtjänst där man kan ladda upp , dela och visa sit project online.
+3. Metodens tre steg + var `push` sitter
+   När man skriva eller ändra kod,(index.html) eller README.md. då anvander man git status för att kontrollera ändring, git add för att för att addera till filer, git commit för att spara dem lokalt i Git.    Änvader man git push för att skicka commit från datorn till GitHup
+   git status kontrollera ändring
+   git add addera ändring till spacfic Git filen i datorn.
+   git commit -m "tydlig message"
+   git push  skicka till public medvekan (GitHup)
 4. Varför synlig medverkan (Exam 1)
+Synlig medverkan visar att jag har ägarskap över koden. Det betyder att jag kan visa mina commits, förklara mina ändringar och motivera mina val i den muntliga delen av Exam 1.
 
 När du kan säga svaren högt utan att titta: gå vidare.
 
