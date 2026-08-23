@@ -17,6 +17,7 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje regel d
 <html lang="sv">
 <head>
   <meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css">
   <title>Biblioteket Kajen</title>
 </head>
 <body>
@@ -45,8 +46,12 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje regel d
 
 **Klart-check (peka i DIN kod):**
 - [ ] Sidan ändrar utseende efter spara + ladda om  
-- [ ] Peka på `link` och säg *varför* den sitter i `head`  
-- [ ] Peka på en elementselektor och säg *vilka* element den träffar  
+- [ ] Peka på `link` och säg *varför* den sitter i `head`
+The link is in the <head> because it connects style.css to the HTML page. The browser loads the CSS early so the page can be styled when it appears. 
+- [ ] Peka på en elementselektor och säg *vilka* element den träffar
+      p{
+    color:rgb(148, 156, 156);
+} p is an element selector. It selects all <p> elements on the page, so all paragraphs get the same text color.
 - [ ] Ingen Flex/Grid  
 
 **Ägarskap:** AI ok som bollplank — spara prompt + en mening om vad du ändrade. Du ska kunna förklara varje deklaration.
@@ -70,9 +75,28 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje regel d
 4. Öppna Inspect i webbläsaren (högerklick → Inspect) och peka på padding vs margin för dig själv.
 
 **Klart-check (peka i DIN kod):**
-- [ ] Peka: content, padding, border, margin — *vilken rad*, och *varför* just den  
-- [ ] Säg högt: varför padding och inte margin mot “text i kanten”  
-- [ ] Säg högt: varför du valde **klass** och inte elementselektor på lappen  
+- [ ] Peka: content, padding, border, margin — *vilken rad*, och *varför* just den
+     <section class="lapp">
+      Stängt 12–13 pga personalmöte.
+    </section> 
+    .lapp {
+  background: #fff3cd;
+  border: 2px solid #333;
+  padding: 16px;
+  margin-top: 16px;
+} Content is the text inside the element:
+Closed 12–13 because of a staff meeting.padding: 16px;
+It creates space inside the note, between the text and the border. border: 2px solid #333;
+It creates the visible line around the note.margin-top: 16px;
+It creates space outside the note, between the <p> and the note .
+
+- [ ] Säg högt: varför padding och inte margin mot “text i kanten”
+    I use padding because the problem is inside the note: the text is too close to the border. Padding adds space between the content and the border.
+   Margin gives space outside the box.
+- [ ] Säg högt: varför du valde **klass** och inte elementselektor på lappen
+     I chose the class .lapp because I only want this specific note to have this style.
+
+If I used an element selector like section, then every <section> on the page would get the same border, padding, and margin. 
 - [ ] Ingen Hero, inget arv, ingen Flex/Grid  
 
 **Ägarskap:** Samma regel som uppgift 1. Om AI slänger in `display: flex` — ta bort det innan du räknar uppgiften som klar.
