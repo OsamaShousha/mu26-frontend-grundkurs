@@ -49,7 +49,7 @@ Mapparna publiceras löpande inför varje ny vecka.
 
 ### Block 1 — Grundläggande webbutveckling & Examination 1
 * **[Vecka 35 — HTML, Git & CSS](./vecka-35/)** (HTML-semantik, Git/GitHub, CSS Box Model)
-* **Vecka 36 — Layout & Examination 1-start** *(Publiceras fre 28/8)*
+* **[Vecka 36 — Layout & Examination 1-start](./vecka-36/)** (Hero & arv, Flexbox, Grid, Nav/MQ)
 * **Vecka 37 — Handledning & Examination 1 (Eventsidan)** *(Inlämning fre 11/9)*
 
 ### Block 2 — JavaScript, React & Examination 2
