@@ -173,10 +173,25 @@ Ingen `display: flex` och inget Grid här. Affischen ska vara tydlig, inte ett k
 
 Skriv i Docs/anteckningar — för dig:
 
-1. Vad betyder arv i CSS? (sikta på målsvaret)  
-2. Nämn två egenskaper som ofta ärvs — och en som du *inte* räknar som arv på samma sätt  
-3. Vad måste en Hero innehålla?  
-4. Metodens tre steg för att hitta ett README-exempel
+1. Vad betyder arv i CSS? (sikta på målsvaret)
+ Arv i CSS betyder att vissa egenskaper kan förs vidare från förälderaelement till dess barn.till example om man sätta color eller font-family på bådy , då kan textenelement inuti sidan ärva samma stil.
+   
+2. color, font-family. den som inte ärva margin, padding, width.
+  color, font-family. den som inte ärva margin, padding, width.
+
+3. Nämn två egenskaper som ofta ärvs — och en som du *inte* räknar som arv på samma sätt 
+Hero innehålla sidan tydliga toppbudskap
+  huvudrubrik (h1), kort introduction text, ibland en knapp eller link.
+4. Vad måste en Hero innehålla?  
+. Metodens tre steg för att hitta ett README-exempel
+- <h1 id="title">Arv och Hero</h1>
+ #title {
+    color: blue;
+}
+
+`#title` pekar på elementet med `id="title"` och ändrar rubrikens färg.
+  
+  Hitta elementet, välj rätt selektor och förklara vad CSS-regeln gör i din egen kod.
 
 När du kan säga svaren högt utan att titta: gå vidare.
 
