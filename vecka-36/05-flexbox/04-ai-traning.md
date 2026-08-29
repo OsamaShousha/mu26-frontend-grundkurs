@@ -1,3 +1,4 @@
+https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36/ovning-ai-flex
 # 04 — AI-träning: Flexbox, feedback & ägarskap
 
 AI kan lägga `display: flex` på *allt* och kalla det layout. Det betyder inte att *du* äger hyllan. Här tränar du: **se vad som är svagt, ändra, förklara** — plus samma sakliga feedback som kursplanen kräver.
