@@ -1,5 +1,6 @@
-# 03 — Övningar
 
+# 03 — Övningar
+https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36/ovning-baklucka
 **Omfång det här paketet:** `nav` med ankare (`#hero` `#schema` `#highlights`), matchande `id`, `footer` med kontakt + fiktiva sponsorer, minst en `@media`, testa viewport. Exam-checklistan i elevspråk. Ingen JavaScript-meny. Grid-rattarna för schemat övar du i [06-css-grid](../06-css-grid/) — här ska sektionen *finnas* och gå att hoppa till.
 
 AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje länk, id och query du behåller.
@@ -62,6 +63,7 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje länk, 
 ---
 
 ## Uppgift 2 — Simklubben på smal skärm
+https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36/ovning-adran
 
 **Mål:** Se klämd layout. Skriv `@media`. Testa viewport. Koppla till Exam-listan.
 
