@@ -23,6 +23,7 @@ Sedan: öppna facit och rätta dig.
 
 <details>
 <summary>Visa facit (målsvar-nivå)</summary>
+https://github.com/OsamaShousha/gitHub/commit/c016fe265921acc18c9457ae9eeb4b66c4d700b2
 
 1. Vissa egenskaper (t.ex. `color`, `font-family`) på en förälder förs vidare till barnen om barnen inte sätter egna värden.  
 2. Ofta: `color`, `font-family` (typografi). Inte på samma sätt: `margin`, `padding`, `border`, `background`.  
