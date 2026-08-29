@@ -7,7 +7,7 @@ Sedan: öppna facit och rätta dig.
 ---
 
 ## Frågor
-
+https://github.com/OsamaShousha/gitHub/blob/master/Mjukvaruutvecklare/Vecka-36/README.md
 1. Vad betyder **arv** i CSS?  
 2. Nämn två egenskaper som ofta ärvs — och en som *inte* ärvs på samma sätt.  
 3. Du har satt `color` på både `.hero` och varje `p` inuti. Vad är problemet när du byter tema?  
