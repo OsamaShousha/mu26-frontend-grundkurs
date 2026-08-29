@@ -61,6 +61,7 @@ Skriv **minst tre** konkreta rader:
 
 ### Steg 3 — Anpassa
 Skriv om till `ovning-ai-hero/index.html` + `style.css`. Semantisk Hero, fem bitar, arv från förälder, bakgrund + padding på affischen. Inget Flex/Grid. Tema: **inte** festival — t.ex. kallbad eller loppislapp.
+https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36
 
 ### Steg 4 — Reflektion (3 meningar)
 Skriv i anteckningar eller en `ARV.md` i mappen:
