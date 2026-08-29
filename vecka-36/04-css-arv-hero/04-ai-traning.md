@@ -14,16 +14,25 @@ Du får tillbaka något i stil med:
 ```html
 <head>
   <style>
-    h1 { color: navy; }
-    p { color: navy; }
-    span { color: navy; }
+    .hero {
+    color: navy;
+    background: gold;
+      display: flex;
+    justify-content:centrem;
+    align-item: center;
+       gap: 2rem; 
+ }
+  
   </style>
 </head>
 <body>
-  <div class="hero" style="display: flex; gap: 2rem; background: gold;">
-    <div>Välkommen</div>
-    <div>Ett event</div>
-  </div>
+  <header class="hero" >
+    <h1>Välkommen</h1>
+    <img src="https://placehold.co/320x140" alt="Bild beskrvning">
+    <p>Ett<span> event</span></p>
+     <p><strong>Adress: </strong>Adressdetaljer</p>
+     <p><strong>Datum: </strong>26-11-26</p>
+  </header>
 </body>
 ```
 
