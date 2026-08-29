@@ -1,3 +1,4 @@
+https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36/ovning-kajen-tavla
 # 03 — Övningar
 
 **Omfång det här paketet:** `display: grid`, `grid-template-columns`, rader som fylls, `gap`. Skillnad Flex vs Grid (Highlights förblir Flex om du har dem). Ingen nav-meny, inga media queries. Semantisk HTML på grundnivå. Ett `id` på tavle-sektionen räcker som adress för senare hopp.
