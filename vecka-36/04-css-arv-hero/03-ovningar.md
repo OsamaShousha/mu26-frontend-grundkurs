@@ -82,7 +82,7 @@ AI får hjälpa dig skriva. Du måste kunna **peka och förklara** varje regel d
 
 **Ägarskap:** Samma regel som uppgift 1. Om AI slänger in `display: flex` — ta bort det innan du räknar uppgiften som klar.
 
----
+---https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36
 
 ## Uppgift 3 — Stretch (valfritt)
 
