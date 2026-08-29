@@ -1,3 +1,4 @@
+https://github.com/OsamaShousha/gitHub/tree/master/Mjukvaruutvecklare/Vecka-36/ovning-pass
 # 03 — Övningar
 
 **Omfång det här paketet:** `display: flex`, `justify-content`, `align-items`, `gap`, `flex-wrap`. Tre–fyra kort med bild + kort text i **en** riktning. Konkret feedback (tagg eller egenskap — inte “ser bra ut”). Ingen Grid. Ingen nav. Ingen media query. Hero från förra paketet får ligga kvar om du bygger i samma mapp — rör den inte med Flex om du inte måste.
