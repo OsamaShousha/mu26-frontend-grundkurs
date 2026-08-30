@@ -1,3 +1,4 @@
+https://github.com/OsamaShousha/gitHub/commit/0d9f569b4a456f4b63ec7446232142b23a910591
 # 04 — AI-träning: nav, MQ & ägarskap
 
 AI kan spotta ur sig en “modern meny” på sekunder. Det betyder inte att *du* äger hoppen. Här tränar du samma färdighet som Examination 1 kräver: **se vad som är svagt, ändra, förklara**.
