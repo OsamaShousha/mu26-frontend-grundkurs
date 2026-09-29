@@ -13,7 +13,24 @@ AI får föreslå rader. Du måste kunna **peka och förklara** varje burk, varj
 **Mål:** Burkar + ett receptkort som räknar en rad. Boolean som **styr** — inte bara loggas.
 
 **Problem först:** Tre bakverk kostar 18 kr styck. Utan variabler skriver du `18` på tre ställen. Priset höjs — du missar en rad. `harRabatt` ligger i facket men koden räknar likadant om du bara *loggar* den.
+const butiksnamn  = "butiksnamn ";
+function radSumma(pris, antal){
+let summa = price * antal;
+let harRabatt = false;
+if(harRabatt === true){
+summa = summa * 0.9;
+}else{
+console.log("Du har inget rabatt")
+};
 
+return summa;
+};
+let rad1 = radSumma(18, 2);
+let rad2 = radSumma(18, 1);
+console.log("Butik:", butiksnamn);
+console.log("2 bullar:", rad1);
+console.log("1 kaffe:", rad2);
+console.log("Slutsumma:", summa);
 **Krav:**
 1. `const` för butiksnamn (sträng) och styckpris (number).  
 2. `let` för löpande `summa` (börjar på `0`).  
@@ -38,6 +55,12 @@ AI får föreslå rader. Du måste kunna **peka och förklara** varje burk, varj
 **Mål:** Ett receptkort med parameter in och värde ut. Testa med logg.
 
 **Brief:** `celsiusTillFahrenheit(c)` ska returnera `c * 9/5 + 32`. Anropa med minst två temperaturer (t.ex. `0` och `21`). Logga både C och F.
+function celsiusTillFahrenheit(c){
+return c * (9/5 + 32);
+};
+console.log(function celsiusTillFahrenheit(21));
+console.log(function celsiusTillFahrenheit(0));
+vi behöver console.log för att ser vad function har  i return värd.
 
 **Krav:**
 1. Funktionen deklarerad med `function`.  
@@ -60,11 +83,19 @@ AI får föreslå rader. Du måste kunna **peka och förklara** varje burk, varj
 **Brief:** Tre sysslor på en hylla. En av dem som objekt. Gå igenom hyllan.
 
 **Krav:**
-1. En array `todos` med **tre strängar**. Logga `todos[0]` och `todos.length`.  
-2. Ett objekt `todo` med `text` (sträng) och `done` (boolean). Logga `todo.text` med punktnotation.  
-3. En `for...of` som `console.log`:ar varje sträng i `todos`.  
-4. I anteckningar: en mening om skillnaden array vs objekt, och en mening om vad `for...of` är (och att det inte är `.map`).
+let todos = ["köpa mjölk", "går skolan",  "sova"];
+console.log(todos[0];// köpa mjölk
 
+console.log(todos.length);// 3
+1. En array `todos` med **tre strängar**. Logga `todos[0]` och `todos.length`.
+2. todo = { text: "string", done: true};
+3. console.log(todo.text);// "string"
+4. Ett objekt `todo` med `text` (sträng) och `done` (boolean). Logga `todo.text` med punktnotation.  
+5. En `for...of` som `console.log`:ar varje sträng i `todos`.
+6. for(const item of  todos){console.log(item)};
+7. I anteckningar: en mening om skillnaden array vs objekt, och en mening om vad `for...of` är (och att det inte är `.map`).
+array har index och använ[] . object har key och värd och anv'nda {};
+for... of copera item of array men .map skapa ny array
 **Klart-check (peka i DIN kod):**
 - [ ] Index `0` är första facket  
 - [ ] `.length` är antal, inte sista numret  
@@ -77,7 +108,9 @@ AI får föreslå rader. Du måste kunna **peka och förklara** varje burk, varj
 ## Uppgift 4 — Stretch (valfritt)
 
 Skriv om `radSumma` *eller* `celsiusTillFahrenheit` som **arrow function**. Samma anrop, samma logg. En mening i anteckningar: vad som är likadant, vad som bara är kortare stavning.
-
+const celsiusTillFahrenheit = (c) =>{
+c * (9/5 + 32);
+};
 **Klart-check:** Du kan peka på `=>` och säga att det inte är en ny sorts logik — och att live-kravet idag var namngiven `function`.
 
 ---
